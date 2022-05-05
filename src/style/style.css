@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #282c34;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.button{
+    margin: 8px;
+    width: 120px;
+    height: 30px;
+    background-color: #a9d3e9;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #81cef7;
+}
+
+main{
+    margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.character--card {
+    background-color: #8e8b8c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: ltr;
+}
+img {
+    width: 140px;
+    height: 140px;
+}
+
+h3{
+    font-size: 20px;
+    margin: 3px;
+    width: 170px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    -webkit-text-stroke: 1px black;
+}
+
+.caracteristicas{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 6px;
+    color: white;
+    width: 170px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+span {
+    margin: 2px;
+}
